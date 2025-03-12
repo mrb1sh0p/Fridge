@@ -1,11 +1,12 @@
 package com.nidus.Fridge.model;
 
+import java.time.LocalDate;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import jakarta.persistence.Id;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
-import java.time.LocalDate;
 
 /**
  * This is a model class for food.
@@ -14,6 +15,7 @@ import java.time.LocalDate;
  * @date 2025-03-12
  * @version 1.0.0
  */
+
 @Entity
 @Table(name = "food_table")
 public class Food {
